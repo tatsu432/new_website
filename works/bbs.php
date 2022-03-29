@@ -67,6 +67,7 @@ fclose($fp);
                         <li><a class="drawer-dropdown-menu-item" target="_blank" href="./kendama_rec.html">Recommended Tricks</a></li>
                     </ul>
                     </li>
+                    <li><a class="drawer-menu-item" target="_blank" href="./film.html">Film reccomendation</a></li>
                     <li><a class="drawer-menu-item" target="_blank" href="http://shimizu432.php.xdomain.jp/works/bbs.php">Bulltein Board</a></li>
                 </ul>
             </nav>

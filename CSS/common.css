@@ -1,0 +1,10 @@
+.slick-slide img {
+    height: 30vw; 
+    max-height: 400px; 
+    min-height: 350px; 
+  }
+
+.slick-dots li button:before{
+	font-size:20px!important;
+}
+

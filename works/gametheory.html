@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-215062524-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-215062524-1');
+    </script>
+    
+    <title>Introduction to me</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="..\images\favicon .ico">
+    <link rel="stylesheet" href="..\CSS\intro.css">
+  </head>
+
+  <body>
+        <p>
+        <label>Your name：<input type="text" id="nameText"></label>
+        <label>number 1：<input type="number" id="number1"></label>
+        <label>number 2：<input type="number" id="number2"></label>
+        <input type="button" value="Check" id="checkButton">
+        <input type="button" value="calculate" id="checkButton2">
+        </p>
+        
+        <p id="msg"></p>
+        
+        <script>
+        function butotnClick(){
+          msg.innerText = 'Your name is ' + nameText.value + '.';
+        }
+
+        function butotnClick2(){
+            msg.innerText = 'the sum is ' + sum;
+          }
+        
+        let nameText = document.getElementById('nameText');
+        nameText.value = 'enter your name';
+
+        var number1 = document.getElementById('number1');
+        number1.value = 1;
+
+        var number2 = document.getElementById('number2');
+        number2.value = 2;
+
+        var sum = ParseInt(number1.value) + ParseInt(number2.value);
+
+        let msg = document.getElementById('msg');
+        
+        let checkButton2 = document.getElementById('checkButton2');
+        checkButton2.addEventListener('click', butotnClick2);
+
+        let checkButton = document.getElementById('checkButton');
+        checkButton.addEventListener('click', butotnClick);
+        </script>
+
+        
+          
+
+        <a href="http://shimizu432.html.xdomain.jp/works/index.html"
+        target="_blank" rel="noopener noreferrer">Click here to get back to Home Page</a>
+  </body>
+
+    
+</html>

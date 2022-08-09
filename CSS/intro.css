@@ -45,9 +45,11 @@ h1::after {
     bottom: -5px;
 }
 
+/*
 html {
     background-color: #C2948A;
 }
+*/
 
 body {
     background-color: #fff;

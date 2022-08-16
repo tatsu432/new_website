@@ -22,7 +22,7 @@ fclose($fp);
         gtag('js', new Date());
         gtag('config', 'UA-215062524-1');
         </script>
-        <link rel="icon" href="..\images\favicon .ico">
+        <link rel="icon" href="..\images\favicon.ico">
 
         <link rel="stylesheet" type="text/css" href="..\CSS\slick.css"/>
         <link rel="stylesheet" type="text/css" href="..\CSS\slick-theme.css"/>
@@ -69,6 +69,8 @@ fclose($fp);
                     </li>
                     <li><a class="drawer-menu-item" target="_blank" href="./film_ja.html">映画批評</a></li>
                     <li><a class="drawer-menu-item" target="_blank" href="http://shimizu432.php.xdomain.jp/works/bbs_ja.php">掲示板</a></li>
+                    <li><a class="drawer-menu-item" target="_blank" href="../PDF/CV_Tatsuhiro_Shimizu.pdf" download>履歴書</a></li>
+                    <li><a class="drawer-menu-item" target="_blank" href="../PDF/Waseda_transcript_Tatsuhiro_Shimizu.pdf" download>成績証明書</a></li>
                 </ul>
             </nav>
         </header>
